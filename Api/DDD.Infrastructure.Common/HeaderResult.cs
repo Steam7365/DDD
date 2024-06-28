@@ -15,7 +15,32 @@
 
         public HeaderResult()
         {
-            IsSuccess = false;
+            IsSuccess = true;
         }
+        public HeaderResult(bool IsSuccess, string Mseeage, T Result)
+        {
+            this.IsSuccess= IsSuccess;
+            this.Mseeage= Mseeage;
+            this.Result= Result;
+        }
+        public HeaderResult(T Result)
+        {
+            this.IsSuccess = true;
+            this.Mseeage = "";
+            this.Result = Result;
+        }
+        public HeaderResult(bool IsSuccess, string Mseeage)
+        {
+            this.IsSuccess = IsSuccess;
+            this.Mseeage = Mseeage;
+        }
+        public HeaderResult(bool IsSuccess, string Mseeage, T Result,int Total)
+        {
+            this.IsSuccess = IsSuccess;
+            this.Mseeage = Mseeage;
+            this.Result = Result;
+            this.Total= Total;
+        }
+
     }
 }

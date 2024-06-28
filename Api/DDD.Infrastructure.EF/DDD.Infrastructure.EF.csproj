@@ -16,4 +16,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DDD.Domain.Model\DDD.Domain.Model.csproj" />
+  </ItemGroup>
+
 </Project>

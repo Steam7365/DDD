@@ -1,12 +1,14 @@
 ﻿using DDD.Domain.Model;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
 namespace DDD.Infrastructure.EF
 {
-    public class MyContext : DbContext
+    public class MyContext : IdentityDbContext<User, Role, long>
     {
         public DbSet<Book> Books { get; set; }
+        public DbSet<KeyValue> KeyValues { get; set; }
         public MyContext(DbContextOptions<MyContext> options)
         : base(options)
         {

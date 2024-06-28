@@ -34,12 +34,26 @@
             this.IsSuccess = IsSuccess;
             this.Mseeage = Mseeage;
         }
+        public HeaderResult(bool IsSuccess, string Mseeage, string StatusCode)
+        {
+            this.IsSuccess = IsSuccess;
+            this.Mseeage = Mseeage;
+            this.StatusCode= StatusCode;
+        }
         public HeaderResult(bool IsSuccess, string Mseeage, T Result,int Total)
         {
             this.IsSuccess = IsSuccess;
             this.Mseeage = Mseeage;
             this.Result = Result;
             this.Total= Total;
+        }
+
+        public HeaderResult(bool IsSuccess, string Mseeage, T Result, string StatusCode)
+        {
+            this.IsSuccess = IsSuccess;
+            this.Mseeage = Mseeage;
+            this.Result = Result;
+            this.StatusCode = StatusCode;
         }
 
     }

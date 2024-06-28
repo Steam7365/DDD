@@ -32,5 +32,7 @@ namespace DDD.Domain.Model
         /// 发布时间
         /// </summary>
         public string PubTime { get; set; }
+
+        public double Price { get; set; }
     }
 }

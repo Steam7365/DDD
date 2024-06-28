@@ -20,6 +20,7 @@ namespace DDD.Infrastructure.EF.ModelConfig
             builder.Property(x => x.PubTime).HasMaxLength(10).IsRequired();
             builder.Property(x => x.Author).HasMaxLength(20).IsRequired();
             builder.Property(x => x.Description).HasMaxLength(500).IsRequired();
+            builder.Property(x => x.Price).HasColumnType("money");
         }
     }
 }

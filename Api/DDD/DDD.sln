@@ -23,9 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Infrastructure.Reposito
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Infrastructure.Common", "..\DDD.Infrastructure.Common\DDD.Infrastructure.Common.csproj", "{2FB6C113-3CF6-4B2B-9F3F-B7E01E43ECED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Domain.IService", "..\DDD.Domain.IService\DDD.Domain.IService.csproj", "{ED522891-81FF-47F9-889E-35B952028E45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Domain.IService", "..\DDD.Domain.IService\DDD.Domain.IService.csproj", "{ED522891-81FF-47F9-889E-35B952028E45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Infrastructure.Services", "..\DDD.Infrastructure.Services\DDD.Infrastructure.Services.csproj", "{90B54CBA-3574-4CC9-9E7B-CAE7DC0D6778}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Infrastructure.Services", "..\DDD.Infrastructure.Services\DDD.Infrastructure.Services.csproj", "{90B54CBA-3574-4CC9-9E7B-CAE7DC0D6778}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

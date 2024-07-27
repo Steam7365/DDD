@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DDD.Application\DDD.Application.csproj" />
+    <ProjectReference Include="..\DDD.Domain.IRepository\DDD.Domain.IRepository.csproj" />
+    <ProjectReference Include="..\DDD.Domain.IService\DDD.Domain.IService.csproj" />
+    <ProjectReference Include="..\DDD.Domain.Model\DDD.Domain.Model.csproj" />
+    <ProjectReference Include="..\DDD.Infrastructure.Common\DDD.Infrastructure.Common.csproj" />
+    <ProjectReference Include="..\DDD.Infrastructure.EF\DDD.Infrastructure.EF.csproj" />
+    <ProjectReference Include="..\DDD.Infrastructure.Repository\DDD.Infrastructure.Repository.csproj" />
+  </ItemGroup>
+
 </Project>

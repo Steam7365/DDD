@@ -12,6 +12,14 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Z.EntityFramework.Plus.EF6" Version="8.103.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DDD.Domain.IRepository\DDD.Domain.IRepository.csproj" />
+    <ProjectReference Include="..\DDD.Domain.Model\DDD.Domain.Model.csproj" />
+    <ProjectReference Include="..\DDD.Infrastructure.Common\DDD.Infrastructure.Common.csproj" />
+    <ProjectReference Include="..\DDD.Infrastructure.EF\DDD.Infrastructure.EF.csproj" />
   </ItemGroup>
 
 </Project>

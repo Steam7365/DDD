@@ -26,4 +26,8 @@
     <ProjectReference Include="..\DDD.Infrastructure.EF\DDD.Infrastructure.EF.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Filter\" />
+  </ItemGroup>
+
 </Project>

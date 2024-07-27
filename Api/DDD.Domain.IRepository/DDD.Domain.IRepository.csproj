@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Identity\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DDD.Domain.Model\DDD.Domain.Model.csproj" />
+    <ProjectReference Include="..\DDD.Infrastructure.Common\DDD.Infrastructure.Common.csproj" />
+  </ItemGroup>
+
 </Project>
